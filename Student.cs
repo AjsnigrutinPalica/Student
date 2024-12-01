@@ -7,11 +7,11 @@
     {
         this.ime = ime;
         this.prezime = prezime;
-        Console.WriteLine($"{ime}{prezime} je stvoren/a");
+        Console.WriteLine($"{ime} je stvoren");
     }
     public void IspisPodataka()
     {
-        Console.WriteLine(ime, prezime);
+        Console.WriteLine($"{ime} {prezime}");
     }
 
 
